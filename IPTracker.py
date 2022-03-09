@@ -10,7 +10,6 @@ def get_info(ip='127.0.0.1'):
         data = {
             '[IP]': response.get('query'),
             '[Int Provider]': response.get('isp')
-            '[Org]': response.get('org')
             '[Country]': response.get('country')
             '[Region]': response.get('regionName')
             '[City]': response.get('city')
